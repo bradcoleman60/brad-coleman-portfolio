@@ -1,10 +1,43 @@
 *{
-    background-color: lightgray;
+    
     font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+padding: 0;
+margin: 0;
+background-color: grey;
+}
+
+
+header{
+    /* position: fixed; */
+    display:inline-flex;
+    justify-content: end;
+    align-items:center;
+    gap: 50px;
+    margin-left: 75px;
+}
+
+header h1 {
+    display: flex;
+    justify-content:flex-start;
+    margin-right: 500px;
 
 }
 
-header {
+.header > * {
+    flex: 1;
+
+}
+
+.header nav{
+    display: inline;
+    size: 500px;
+}
+
+/* header {
     position: fixed;
     background-color: black;
     color: white;
@@ -16,9 +49,45 @@ header {
     border-color: yellow;
     border-radius: 10px;
     margin-right: 10px;
+} */
+
+.section-container{
+display: flex;
+height: fit-content;
+border: solid 30px black;
+flex-wrap: wrap;
+justify-content: space-evenly;
 }
 
-header h1 {
+.content-wrapper h1 {
+width: 250px;
+font-size: 40px;
+text-align: center;
+
+}
+
+.section-container > * {
+    flex: 1;
+
+}
+
+.content-wrapper {
+border: 20px solid blue;
+display: flex;
+margin: 5px;
+height: 300px;
+max-width: 300px;
+justify-content: space-evenly;
+background-image: url(../images/dog.jpg);
+background-size: 100%;
+background-repeat: no-repeat;
+object-fit: contain;
+
+
+}
+
+
+/* header h1 {
     background-color: black;
     font-size: 30px;
     height: 40px;
@@ -29,7 +98,7 @@ header h1 {
     border-color: yellow;
     border-radius: 20px;
     position:fixed;
-}
+} */ */
 
 
 /* header nav  {
@@ -44,16 +113,16 @@ header h1 {
 
 }  */
 
-header nav a { 
+/* header nav a { 
     display:inline-block; 
-    float: right;
+    float: left;
     background-color:black;
     color: white;
     text-decoration:none;
     font-size: 20px;
     padding:  25px;
     
-} 
+}  */
 
 div p {
 
