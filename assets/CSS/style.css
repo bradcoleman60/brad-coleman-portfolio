@@ -8,13 +8,18 @@
 }
 
 header {
-    position:fixed;
+    /* position:fixed; */
     width: 98%;
-    height: 220px;
+    height: 150px;
     display: flex;
     border:5px solid red;
     justify-content: space-between;
 
+}
+
+header h1{
+    font-size: large;
+    
 }
 
 .header-container_1 {
@@ -33,13 +38,11 @@ header {
 
 .header-photo {
     flex-direction: column;
-    max-width: 100px;
-    max-height: 100px;
-    
+    border: 5px solid blue;
 }
 
 .header-photo img{
-    max-width: 120px;
+    max-width: 80px;
     border: 5px solid blue;
 
 }
@@ -61,12 +64,13 @@ header {
 /* This starts the main section of the website.  There is one main container and inside this main container are two smaller containers. */
 
 .main-container {
+    
     display: flex;
     gap: 10px;
     padding: 10px;
     flex-direction: row;
     justify-content:space-around;
-    border: 5px solid greenyellow;
+    /* border: 5px solid greenyellow; */
     
 }
 
@@ -79,14 +83,14 @@ header {
     justify-content:flex;
     height: 400px;
     gap: 10px;
-    margin: 10px;
-    margin-top: 240px;
-    border: 5px solid lightblue;
-    padding:30px
+    margin: 20px;
+    /* margin-top: 240px; */
+    border: 2px dashed yellow;
+    padding:20px
     
 }
 
-.container_1 h1 {
+.card_1 h1 {
     font-size: 20px;
     text-align: center;
     border: 5px solid yellow;
@@ -119,19 +123,20 @@ header {
     flex-direction: row;
     /* justify-content:space-evenly; */
     gap: 10px;
-    /* margin: 10px; */
-    margin-top: 240px;
-    border: 5px solid yellow;
+    margin: 20px;
+    /* margin-top: 240px; */
+    border: 2px dashed black;
     padding:20px
 }
 
-.container_2 a{
+
+.container_2 a {
     background-color: blue;
     font-size: 12px;
     
 
 }
-.container_2 h1 {
+.card_2 h1 {
 
     font-size: 20px;
     text-align: center;
@@ -168,8 +173,8 @@ header {
 .card_2 {
     background-color: brown;
     padding: 30px;
-    width: 100px;
-    height: 100px;
+    width: 175px;
+    height: 150px;
     margin: auto;
     border: 5px solid black;
     gap: 20px;
