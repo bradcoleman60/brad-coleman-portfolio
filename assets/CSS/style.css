@@ -166,6 +166,12 @@ header nav{
     padding:20px
 }
 
+.container_2 a{
+    background-color: blue;
+    font-size: 12px;
+    
+
+}
 .container_2 h1 {
 
     font-size: 20px;
@@ -178,7 +184,7 @@ header nav{
 }
 
 .container_2 p {
-
+    margin: 0%;
     background-color: brown;
     
 }
