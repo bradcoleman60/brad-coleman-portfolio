@@ -6,7 +6,8 @@
     
 }
 
-
+/* Header is a flex boxt that includes two sub containers named "Header-container_1"
+and "Heaeder-container_2" */
 header {
     width: 98%;
     height: 160px;
@@ -61,7 +62,8 @@ header h1{
 }
 
 
-/* This starts the main section of the website.  There is one main container and inside this main container are two smaller containers. */
+/* This starts the main section of the website.  There is one main container and 
+inside this main container are two smaller containers. */
 
 .main-container {
     
@@ -70,21 +72,21 @@ header h1{
     padding: 10px;
     flex-direction: row;
     justify-content:space-around;
-    /* border: 5px solid greenyellow; */
-    
 }
 
 
-
+/* This CSS removes the automatically applied underline to all linked (href) references */
 a:link {
     text-decoration: none;
 }
 
+/* This CSS adds an underline to the text that is included in a link (href) */
 a:hover{
     text-decoration: underline;
 }
 
-/* Contain_1 Holds the large container that has one show-cased project - That is, the Large Project */
+/* Contain_1 Holds the large container that has one show-cased project - 
+That is, the Large Project */
 .container_1 {
     display: flex;
     flex-flow: column;
@@ -99,18 +101,11 @@ a:hover{
     
 }
 
-/* .container_1 a{
-    background-color: blue;
-    font-size: 17px;
-} */
-
 .card_1 {
     
     background-image: url(../images/digital-marketing-meeting.jpg);
     background-size:cover;
     padding: 30px;
-    /* padding-left: 0;
-    padding-right: 0; */
     width: 300px;
     height: 300px;
     margin: auto;
@@ -159,6 +154,7 @@ a:hover{
    
 }
 
+/* There are 4 sub cards within container_2 with the following CSS */
 .card_2, 
 .card_3,
 .card_4,
