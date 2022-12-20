@@ -9,7 +9,7 @@
 5. [About the Author](#about-the-author)
 6. [License](#license)
 
-[Visit the Deployed Site](https://bradcoleman60.github.io/marketing-refactor/)
+[Visit the Deployed Site](https://bradcoleman60.github.io/brad-coleman-portfolio/)
 
 
 # **Description**
