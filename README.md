@@ -1,49 +1,46 @@
 # **brad-coleman-portfolio**
 
 
-
 # **Table of Contents**
 1. [Description](#description)
-2. [Code Refactor Example](#refactor-example)
-4. [Testing](#testing)
-5. [Technology Used and Credits](#technology-used-and-credits)
-6. [Learnings](#learnings)
-7. [About the Author](#about-the-author)
-8. [License](#license)
+2. [Testing](#testing)
+3. [Technology Used and Credits](#technology-used-and-credits)
+4. [Learnings](#learnings)
+5. [About the Author](#about-the-author)
+6. [License](#license)
 
 [Visit the Deployed Site](https://bradcoleman60.github.io/marketing-refactor/)
 
 
 # **Description**
 
-This goal of this project was to to create my first website with no starter code and use many of the concepts that I learned in the first week of boot camp.  Here is a recap of the concepts of web devevlopment that I did not have any exposure to prior to my first week of this boot camp:
+This goal of this project was to to create my first website with no starter code and use many of the concepts that I learned in the first week of boot camp.  Here is a recap of the concepts of web development that I did not have any exposure to prior to my first week of this boot camp:
 
-1. Basic and some some advanced CSS including linnking an external style.css file in the index.html file
+1. Basic and some advanced CSS including linking an external style.css file in the index.html file.
 2. Use of semantic elements in HTML code.
 3. General construct of a standard HTML page including the components of Head, Header, Main and Footer.
-4. CSS Flex Box that allows the components of this websiet to flex (stretch or shrink) based on the sie of the browser window. 
+4. CSS Flex Box that allows the components of this website to flex (stretch or shrink) based on the size of the browser window. 
 5. Media Queries that all the flex direction to change from "Row" to "Column" based on a screen size limit of 768px. 
-6. Git commands of add, commit and push.
+6. Added effect on the hover to a linked image.
+7. Use of an ```<a>``` tag to an entire section (or card) so that when the card is pressed, the visitor is sent my application.
+8. Git commands of add, commit and push.
 
 
-# **Highligted Code Example**
+# **Highlighted Code Example**
 
-The following is highlighted code that I created.  This particular snippet highlights one of my learnings during this project.  I inserted a link to the another project of mine, but found that the link openned my application in the same browswer windown.  I found that this would be confusing to the visitor.  I reseached how to open the link in a new browser window on Google and found the [target-"_blank"] syntax accomplishes this.  
+The following is highlighted code that I created.  This particular snippet highlights one of my learnings during this project.  I inserted a link to the main project I wanted to highlight, but found that the link opened my application in the same browser window.  I found that this would be confusing to the visitor.  I researched how to open the link in a new browser window on Google and found the [target-"_blank"] syntax accomplishes this.  
 
 ```
 <section class="container_1" id="main-project">
         <a href="https://bradcoleman60.github.io/marketing-refactor/" target="_blank">
         <div class="card_1">
-            <h1><a href="https://bradcoleman60.github.io/marketing-refactor/" target="_blank">Code Refactor</a></h1>
-            <p>In this project I refactored existing HMTL and CSS to add semantic elements and instituted accessabilty standards. </p>
+            <h1>Code Refactor</h1>
+            <p>In this project I refactored existing HMTL and CSS to add semantic elements and instituted aaccessibility ccessabilty standards. </p>
         </div>
         </a>
     </section>
 
 ```
-
-
-
 
 # **Testing** 
 
@@ -59,7 +56,9 @@ I used many useful references in completing this project including the following
 
 # **Learnings**
 
-[ADD HERE]
+I have many learnings  on this project.  The main learning was on the use of flex box - a CSS element  that allows components to shrink and grow in relation to the size of the window.  I started with a blank HMTL file and created a couple of containers.  To aid in this learning I temporarily applied a border around each container.  This allowed to see how the containers (or boxes) were reacting to the different flex display parameters that I applied.
+
+Additionally, this is the first website that I built that contains a media query.
 
 Lastly, though intuitive and a lesson I have learned throughout my career, collaborating with fellow bootcamp students is very rewarding.  I was able to see different viewpoints and approaches to understanding the concepts of this project.  Additionally, I was exposed to several short cuts and tricks when using VS code.   
 
