@@ -54,6 +54,8 @@ header h1{
 }
 
 .nav-bar {
+    display: flex;
+    gap: 20px;
     padding: 15px;
     font-size: 20px;
 }
@@ -73,6 +75,16 @@ header h1{
 }
 
 
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/* Contain_1 Holds the large container that has one show-cased project - That is, the Large Project */
 .container_1 {
     display: flex;
     flex-flow: column;
@@ -82,18 +94,30 @@ header h1{
     height: 400px;
     gap: 10px;
     margin: 20px;
-    /* margin-top: 240px; */
     border: 2px dashed yellow;
     padding:20px
     
 }
 
-.container_1 a{
+/* .container_1 a{
     background-color: blue;
     font-size: 17px;
+} */
+
+.card_1 {
+    
+    background-image: url(../images/digital-marketing-meeting.jpg);
+    background-size:cover;
+    padding: 30px;
+    /* padding-left: 0;
+    padding-right: 0; */
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border: 5px solid black;
+    gap: 20px;
+    border-radius: 20px;
 }
-
-
 .card_1 h1 {
     font-size: 20px;
     text-align: center;
@@ -104,19 +128,24 @@ header h1{
     background-color: blue;
 }
 
-
-
-
-.card_1 p  {
+.card_1 p {
     background: rgba(0, 0, 0, 0.3);
- 
+    margin-top: 250px;
+    
 }
 
+.card_1 :hover {
+    background: rgba(0, 0, 0, 0.8);
 
-.container_2 {
+}
+
+/* Container 2 houses the small projects. */
+
+.container_2  {
     display: flex;
     flex-flow: row;
     flex-wrap:wrap;
+    justify-content: center;
     flex-direction: row;
     gap: 25px;
     margin: 20px;
@@ -124,44 +153,16 @@ header h1{
     padding:20px
 }
 
-
-.container_2 a {
-    background-color: blue;
-    font-size: 17px;
-    
-
-}
-.card_2 h1 {
-
-    font-size: 20px;
-    text-align: center;
-    border: 3px solid yellow;
-    border-radius: 10px;
-    position:relative;
-    margin-top: -50px;
-    background-color: blue;
-}
-
 .container_2 p {
     margin: 0%;
     background-color: darkgreen;
-    
+   
 }
 
-.card_1 {
-    
-    background-image: url(../images/digital-marketing-meeting.jpg);
-    background-size:cover;
-    padding: 30px;
-    width: 300px;
-    height: 300px;
-    margin: auto;
-    border: 5px solid black;
-    gap: 20px;
-    border-radius: 20px;
-}
-
-.card_2 {
+.card_2, 
+.card_3,
+.card_4,
+.card_5 {
     background-color: darkgreen;
     padding: 30px;
     width: 175px;
@@ -173,7 +174,22 @@ header h1{
     
   }
 
-/* Media Query to change the Flex Direction from Row to Column on different screen sizes */
+.card_2 h1, 
+.card_3 h1,
+.card_4 h1,
+.card_5 h1 {
+
+    font-size: 20px;
+    text-align: center;
+    border: 3px solid yellow;
+    border-radius: 10px;
+    position:relative;
+    margin-top: -50px;
+    background-color: blue;
+}
+
+/* Media Query to change the Flex Direction from Row to Column on different screen sizes.  
+This also applies to the Nav-Bar. */
 
 
   @media screen and (max-width: 768px) {
@@ -188,6 +204,10 @@ header h1{
         justify-content: flex-start;
         display: inline-block;
     }
+    .nav-bar {
+        flex-direction: column;
+    }
+   
   }
 
   
