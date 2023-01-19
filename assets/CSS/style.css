@@ -101,9 +101,14 @@ That is, the Large Project */
     
 }
 
+.card_1 img {
+    width: 50%;
+    height: auto;
+}
+
 .card_1 {
     
-    background-image: url(../images/digital-marketing-meeting.jpg);
+    background-image: url(../images/nba_project.jpg);
     background-size:cover;
     padding: 30px;
     width: 300px;
